@@ -1,3 +1,40 @@
 p {
     color: green;
 }
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+body {
+    height: 10vh;
+}
+
+#btn {
+    border-radius: 20px;
+    border 3px solid #FFFFF;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.btn {
+    /* height: 5vh; */
+}
+
+#log {
+    border: solid 1px black;
+    /* height: auto; */
+    width: fit-content;
+    padding: 30px;
+    margin: 0px 30px 0px 30px;
+    overflow: visible;
+    /* position: fixed; */
+
+}
+
+
+footer {
+    margin: 10px;
+}

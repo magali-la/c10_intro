@@ -14,23 +14,32 @@
                 padding: 0;
             }
             header{
-                background-color: orange;
-                height: 30vh;
+                /* background-color: orange; */
             }
         </style>
     </head>
     <body>
         <header>
             <div>
-              <h2 style="text-align: center;"> practice </h2>  
+              <h2 style="text-align: center;"> Color Mood Generator </h2>  
             </div>
         </header>
         <main>
-            <p> Main section of the page</p>
-            <button onclick="greetUser()" >button</button>       
+            <div class="btn" style="text-align: center;">
+                <h4>Change the color here</h4>
+                <button id="btn" onclick="generateBG()" >Change Mood</button>  
+            </div>
+            <div id="log">
+                <h4 style="text-align: center;">Color Log</h4>
+                <div class="log">
+                    <ol id="myLogs"></ol>
+                </div>
+            </div>
         </main>
-        <footer>Designed by Mala</footer>
-        
+        <footer>
+            <h6>Designed by Mala</h6>
+        </footer>
+    
         <script src="/src/index.js"></script>
     </body>
 </html>
